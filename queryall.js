@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function refreshOutput(html) {
     const output = document.querySelector('#output');
-
     output.innerHTML = html;
 }
 
